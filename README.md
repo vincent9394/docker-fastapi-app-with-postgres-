@@ -1,8 +1,3 @@
-https://www.jeffastor.com/blog/up-and-running-with-fastapi-and-docker
-https://www.jeffastor.com/blog/pairing-a-postgresql-db-with-your-dockerized-fastapi-app
-https://www.jeffastor.com/blog/hooking-fastapi-endpoints-up-to-a-postgres-database
-
-
 # init the project 
 docker-compose up --build
 
@@ -30,4 +25,12 @@ docker exec -it <container id> bash
 ```
 docker-compose exec db psql -h localhost -U postgres --dbname=postgres
 
+```
+
+
+# Reference
+```
+https://www.jeffastor.com/blog/up-and-running-with-fastapi-and-docker
+https://www.jeffastor.com/blog/pairing-a-postgresql-db-with-your-dockerized-fastapi-app
+https://www.jeffastor.com/blog/hooking-fastapi-endpoints-up-to-a-postgres-database
 ```
